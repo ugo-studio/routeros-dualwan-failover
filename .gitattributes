@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.rsc text eol=lf linguist-language=Text
+dist/** linguist-generated=true
+docs/MANUAL.md linguist-generated=true
+docs/manual.html linguist-generated=true

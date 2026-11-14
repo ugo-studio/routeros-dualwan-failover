@@ -1,0 +1,17 @@
+# Never commit router exports, backups or VPN configs: they can contain keys and passwords
+*.backup
+*.conf
+*.npk
+export*.rsc
+pre-fo-*
+*-export.rsc
+WG-Profiles*.rsc
+local/
+private/
+
+# Tooling
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
